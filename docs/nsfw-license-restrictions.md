@@ -20,7 +20,7 @@ Each license defines restricted NSFW levels in `constants.ts`:
 
 ```typescript
 type LicenseDetails = {
-  restrictedNsfwLevels?: NsfwLevel[]; // Define which NSFW levels are restricted
+  restrictedNsfwLevels?: NsfwLevel[nsfwLevel & 28]; // Define which NSFW levels are restricted
 };
 
 'sdxl turbo': {
